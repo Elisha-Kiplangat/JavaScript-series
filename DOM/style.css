@@ -18,7 +18,7 @@ body {
 
 .navbar {
     align-items: center;
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: #a0ebf5;
 }
 .container{
@@ -48,19 +48,21 @@ body {
 }
 
 .menu ul li {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    padding: 10px 15px;
+    border-radius: 10px;
 }
 
 .navbar .menu a {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-size: 1rem;
     font-weight: 500;
     color: #333;
     text-decoration: none;
 }
 
-.navbar .menu a:hover {
-    color: #007bff;
+.navbar .menu ul li:hover {
+    background-color: #007bff;
 }
 
 .hero {
